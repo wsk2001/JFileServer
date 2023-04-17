@@ -11,29 +11,21 @@ JFileServer는 현재 SMB/CIFS, FTP/FTPS 및 NFS 프로토콜을 지원하는 Ja
 
 History
 -------
-The JFileServer code originally started out as the JLAN Server, the first version being
-released by Starlasoft back in the late 1990's with basic SMB1 support. As development of
-the JLAN Server continued, SMB1 support was enhanced, and FTP and NFS support were added,
-along with the database filesystem framework and smart caching.
+JFileServer 코드는 원래 JLAN 서버로 시작했으며, 기본 SMB1 지원과 함께 1990년대 후반에 Starlasoft에서 첫 번째 버전을 출시했습니다. JLAN 서버의 개발이 계속됨에 따라 SMB1 지원이 향상되었고 FTP 및 NFS 지원이 데이터베이스 파일 시스템 프레임워크 및 스마트 캐싱과 함께 추가되었습니다.
 
-In 2007 Alfresco Software bought the rights to the JLAN Server code rebranding it as Alfresco-JLAN,
-and releasing the code as open source. Development continued with the addition of support for 
-NTLMv2 and Kerberos enterprise authentication, scaleability enhancements using NIO, thread
-pools and memory pools, plus cluster support using Hazelcast, and FTPS support.
+2007년 Alfresco Software는 JLAN 서버 코드에 대한 권리를 구입하여 Alfresco-JLAN으로 리브랜딩하고 코드를 오픈 소스로 공개했습니다. NTLMv2 및 Kerberos 엔터프라이즈 인증에 대한 지원, NIO를 사용한 확장성 향상, 스레드 풀 및 메모리 풀, Hazelcast를 사용한 클러스터 지원, FTPS 지원을 추가하여 개발이 계속되었습니다.
 
-In recent years no new development has been done on the Alfresco-JLAN code.
+최근 몇 년 동안 Alfresco-JLAN 코드에 대한 새로운 개발이 이루어지지 않았습니다.
 
-At the beginning of 2018 we forked the Alfresco-JLAN code to create the JFileServer project
-to bring the source code up to date, and continue development of the file server.
+2018년 초에 Alfresco-JLAN 코드를 포크하여 JFileServer 프로젝트를 생성하여 소스 코드를 최신 상태로 유지하고 파일 서버 개발을 계속했습니다.
 
 License
 -------
-The core JFileServer library and components such as the database filesystem implementations
-are licensed under the same GNU LGPL v3.0 license as the original Alfresco-JLAN code.
+핵심 JFileServer 라이브러리 및 데이터베이스 파일 시스템 구현과 같은 구성 요소는 원래 Alfresco-JLAN 코드와 동일한 GNU LGPL v3.0 라이선스에 따라 라이선스가 부여됩니다.
 
 JDK Version
 -----------
-The JFileServer code uses features of JDK version 7 onwards.
+JFileServer 코드는 JDK 버전 7 이후의 기능을 사용합니다.
 
 Docker
 ------
@@ -45,7 +37,7 @@ For a list of the available Docker images see <https://hub.docker.com/r/filesyso
 
 Website
 -------
-The main website can be found at <http://www.filesys.org>.
+기본 웹사이트는 <http://www.filesys.org> 에서 찾을 수 있습니다.
 
-Additional information and documentation will be added there in the near future.
+가까운 시일 내에 추가 정보와 문서가 추가될 예정입니다.
 
