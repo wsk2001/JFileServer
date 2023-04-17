@@ -3,16 +3,11 @@ JFileServer - The Java File Server
 
 Introduction
 ------------
-JFileServer is a Java based file server that currently supports the SMB/CIFS, FTP/FTPS
-and NFS protocols. A virtual filesystem interface allows custom filesystems to be implemented,
-with a database filesystem framework that makes it easy to use a database to store the filesystem
-metadata, and optionally the file data.
+JFileServer는 현재 SMB/CIFS, FTP/FTPS 및 NFS 프로토콜을 지원하는 Java 기반 파일 서버입니다. 가상 파일 시스템 인터페이스를 사용하면 파일 시스템 메타데이터 및 선택적으로 파일 데이터를 저장하기 위해 데이터베이스를 쉽게 사용할 수 있게 해주는 데이터베이스 파일 시스템 프레임워크를 통해 맞춤형 파일 시스템을 구현할 수 있습니다.
 
-The file server is highly scaleable using asynchronous I/O, thread pools and memory pools
-to optimise the throughput. The server may be clustered for additional scaleability based
-on the Hazelcast cluster technology.
+파일 서버는 처리량을 최적화하기 위해 비동기 I/O, 스레드 풀 및 메모리 풀을 사용하여 확장성이 뛰어납니다. Hazelcast 클러스터 기술을 기반으로 추가 확장성을 위해 서버를 클러스터링할 수 있습니다.
 
-An Enterprise add-on module adds support for SMBv2 (higher performance) and SMBv3 (full encryption).
+엔터프라이즈 애드온 모듈은 SMBv2(고성능) 및 SMBv3(전체 암호화)에 대한 지원을 추가합니다.
 
 History
 -------
